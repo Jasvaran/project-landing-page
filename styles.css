@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: black;
 }
 
 .top-container {
@@ -10,21 +11,85 @@ body {
     height: 350px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 
 }
 
 .header {
-    font-size: 24px;
     display: flex;
     justify-content: space-between;
+    width: 1200px;
     margin-left: 1in;
-    margin-top: 10px;
-
+    margin-top: 8px;  
 }
 
 ul {
     display: flex;
+    justify-content: space-between;
     gap: 32px;
-    margin-right: 10px;
+    font-size: 18px;
+    margin-right: 12px;
+    list-style-type: none;
+    color: #E5E7EB;
+
 }
 
+.logo {
+    font-size: 24px;
+    margin-top: 10px;
+    color: white;
+    font-weight: 700px;
+}
+
+.top-half-content{
+    width: 1400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text, .sub-text {
+    display:flex;
+    flex-direction: column;
+    width: 500px;
+   
+}
+
+.text {
+    font-size: 32px;
+    font-weight: 700px;
+    color: white;
+    margin-left: 1in;
+    padding-top: 40px;
+}
+
+.sub-text {
+    font-size: 18px;
+    color: grey;
+}
+
+.sign-up {
+    height: 45px;
+    width: 100px;
+    background-color: #3882f6;
+    border-radius: 15px;
+    margin: 10px;
+    font-size: 16px;
+}
+
+img {
+    margin-right: 1in;
+}
+
+.middle-container {
+    width: 1400px;
+    height: 600px;
+    background-color: white;
+}
+
+.middle-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 900px;
+}
